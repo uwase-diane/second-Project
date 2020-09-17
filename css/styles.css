@@ -1,0 +1,168 @@
+body{
+    font-family: "Archivo Black" Open sans;
+}
+header{
+    background-image: url(/home/uwase/Documents/moringa-school-projects/second-projects/images/dog.png);
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+  
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    transition: 0.6s ;
+    
+}
+ul li a:hover{
+    color: #fff;
+    background-color: #000;
+   
+}
+.logo img{
+    float: left;
+    width: 110px;
+   margin-top: 15px;
+   margin-left: 30px;
+   transition: 0.6s;
+   border-radius: 50px;
+}
+#home{
+    max-width: 1200px;
+    margin: auto;
+}
+.titles{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: "Archivo Black";
+    color: #fff;
+    transition: 0.6s;
+   
+}
+
+#about{
+    text-align: center;
+    padding: 80px; 
+    margin: 80px;
+    font-family: Open Sans;
+
+}
+.borderr{
+    margin: 20px auto;
+    width: 200px;
+    height: 1px;
+    background: black;
+}
+#our-dogs{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+ #our-dogs .dog{
+     margin: 5px;
+     margin-bottom: 50px;
+     width: 300px;
+     padding: 20px;
+     line-height: 20px;
+    
+ }
+ #our-dogs .dog h3{
+     font-weight: bold;
+     
+ }
+ #our-dogs .dog p{
+     font-size: 15px;
+ }
+ #gallery h1{
+     text-align: center;
+     font-size: 1.8rem;
+     font-family: Open Sans;
+     
+     margin-bottom: 20px;
+ }
+.image-area{
+    display: flex;
+    flex-wrap: wrap;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+}
+.single-img{
+    padding: 0 20px 20px;
+
+}
+img:hover{
+    opacity: 0.5;
+    transition: 0.6s;
+}
+
+#contact-us{
+    padding: 40px 0;
+   
+}
+#contact-us h2{
+    text-align: center;
+  
+}
+.border{
+    width: 200px;
+    height: 5px;
+    margin: 2px auto;
+    background: rgb(172, 28, 28);
+}
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: #111;
+    padding: 20px 40px;
+    color: #ddd;
+    outline: none;
+    transition: 0.6s;
+    
+}
+.contact-form-text:hover{
+    box-shadow: 0 0 10px 4px #f8580e;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+}
+.contact-form-btn{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgb(114, 54, 54);
+    padding: 20px 40px;
+    color: #ddd;
+    outline: none;
+    border-radius: 50px;
+    transition: 0.6s;
+}
+.contact-form-btn:hover{
+    background: #555e70;
+}
