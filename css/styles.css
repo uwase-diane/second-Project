@@ -2,7 +2,7 @@ body{
     font-family: "Archivo Black" Open sans;
 }
 header{
-    background-image: url(/home/uwase/Documents/moringa-school-projects/second-projects/images/dog.png);
+    background-image: url(https://res.cloudinary.com/auca/image/upload/v1600338279/dog_fyilcf.png);
     height: 80vh;
     background-size: cover;
     background-position: center;
